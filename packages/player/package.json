@@ -2,10 +2,11 @@
   "name": "@ai-werewolf/player",
   "version": "1.0.0",
   "description": "AI Werewolf player server",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "bun dist/index.js",
     "start:config": "node dist/index.js --config=",
     "dev": "bun --watch src/index.ts",
     "dev:config": "bun --watch src/index.ts --config=",

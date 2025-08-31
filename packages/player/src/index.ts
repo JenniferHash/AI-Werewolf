@@ -26,7 +26,7 @@ const configArg = args.find(arg => arg.startsWith('--config='));
 const configPath = configArg ? configArg.split('=')[1] : undefined;
 
 // 加载配置
-const configLoader = new ConfigLoader(configPath);
+const configLoader = new ConfigLoader("configs/default.json");
 const config = configLoader.getConfig();
 
 // 验证配置

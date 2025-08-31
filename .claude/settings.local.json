@@ -1,0 +1,11 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "zen"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(bun run:*)"
+    ]
+  }
+}
